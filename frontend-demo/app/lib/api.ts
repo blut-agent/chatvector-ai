@@ -111,6 +111,7 @@ export type AttachmentState = {
   status: "processing" | "ready" | "failed";
   stage?: string;
   chunks?: { total: number; processed: number };
+  processingTime?: string;
 };
 
 export type DocumentStatusPayload = {
